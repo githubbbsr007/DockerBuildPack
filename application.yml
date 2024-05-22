@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: buildpack
+  profiles:
+    active: uat
+  config:
+    import: "optional:configserver:http://localhost:7070/"
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+            
+#http://localhost:8080/actuator(url actuator to data update run time)
