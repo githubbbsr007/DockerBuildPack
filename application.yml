@@ -13,3 +13,11 @@ management:
         include: "*"
             
 #http://localhost:8080/actuator(url actuator to data update run time)
+
+#http://localhost:8080/actuator/refresh
+
+#http://localhost:8080/contactInfo  (Config data update URL)
+
+#http://localhost:7070/buildpack/default (Config server URL based on default profile)
+
+#http://localhost:7070/buildpack/uat (Config server URL based on UAT profile)
